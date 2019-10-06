@@ -125,8 +125,8 @@ func (b *Bootstrapper) Bootstrap() *Bootstrapper {
 	b.SetupErrorHandlers()
 
 	// static files
-	b.Favicon(StaticAssets + Favicon)
-	b.StaticWeb(StaticAssets[1:len(StaticAssets)-1], StaticAssets)
+	//b.Favicon(StaticAssets + Favicon)
+	//b.HandleDir(StaticAssets[1:len(StaticAssets)-1], StaticAssets)
 
 	// middleware, after static files
 	b.Use(recover.New())

@@ -14,8 +14,8 @@ var MasterDbConfig DbConf = DbConf{
 	Host:   "127.0.0.1",
 	Port:   3306,
 	User:   "root",
-	Pwd:    "root",
-	DbName: "superstar",
+	Pwd:    "chen17258chen",
+	DbName: "myxorm",
 }
 
 var SlaveDbConfig DbConf = DbConf{
@@ -23,5 +23,5 @@ var SlaveDbConfig DbConf = DbConf{
 	Port:   3306,
 	User:   "root",
 	Pwd:    "root",
-	DbName: "superstar",
+	DbName: "myxorm",
 }
